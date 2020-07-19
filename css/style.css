@@ -1,0 +1,110 @@
+.account > div {
+    float: left;
+}
+
+.navbar {
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #dfe3e8;
+	border-radius: 0;
+}
+
+.navbar .sign-up-btn {
+	-minwidth: 110px;
+	max-height: 36px;
+}
+
+.navbar .dropdown-menu {
+	color: #999;
+	font-weight: normal;
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.navbar .action-form {
+	width: 280px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+}
+
+.navbar .action-form .hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.navbar .btn-primary, .navbar .btn-primary:active {
+	color: #fff;
+	background: #33cabb;
+	border: none;
+}	
+
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #fff;
+	background: #31bfb1;
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+
+.title {
+	height: 30px;
+	border-bottom: 1px solid black;
+}
+
+.title > div:first-child {
+	float: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+
+	/*글자수*/
+	width:200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.title > div:last-child {
+	float: right;
+	height: 100%;
+}
+
+.text > p {
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    width:100%;
+    height:60px;
+    line-height:20px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.card-img-top {
+	text-align: center;
+	width: 100%;
+	height: 200px;
+}
+
+.card-img-top img {
+	display: block;
+	width: 350px;
+	height: 200px;
+}
+
+.card-body {
+	padding-top: 0.5rem;
+}
+
+.card-img-top img:hover {
+	opacity: 0.5;
+}
+
+
+  
